@@ -353,7 +353,7 @@ This is a structure of the Socially app:
 @@ -0,0 +1,27 @@
 +┊  ┊ 1┊import angular from 'angular';
 +┊  ┊ 2┊import angularMeteor from 'angular-meteor';
-+┊  ┊ 3┊
++┊  ┊ 3┊import { Parties } from '../../../../collections/parties';
 +┊  ┊ 4┊class PartiesList {
 +┊  ┊ 5┊  constructor($scope, $reactive) {
 +┊  ┊ 6┊    'ngInject';
